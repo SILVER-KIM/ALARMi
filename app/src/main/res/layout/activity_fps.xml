@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FpsActivity"
+    android:id="@+id/fps"
+    android:background="@mipmap/bg"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/target"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rami" />
+
+        <ImageView
+            android:id="@+id/crush"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/crush"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:background="@drawable/arrow"
+            android:visibility="invisible"/>
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:max="40"
+            android:progress="0"
+            android:layout_width="25dp"
+            android:layout_height="100dp"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:progressDrawable="@drawable/progressbar_vertical"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/shootingBTN"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/pb"
+            android:src="@drawable/click"
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4">
+
+                <ImageView
+                    android:id="@+id/scoreback"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/score"
+                    android:layout_marginLeft="10dp"/>
+
+                <ImageView
+                    android:id="@+id/arrowback"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/arrownum"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/score"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="center"
+                    android:text="점수"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:id="@+id/arrowNum"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="center"
+                    android:text="개수"
+                    android:textColor="#000"/>
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/bow"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6"
+                android:src="@drawable/boww"
+                android:layout_gravity="bottom|center_horizontal"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

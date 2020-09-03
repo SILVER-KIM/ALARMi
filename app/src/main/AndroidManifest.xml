@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.silver.alarm">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="ALARMi"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <receiver
+            android:name=".AlarmReceiver"
+            android:exported="true" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AlarmActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SetAlarmActivity" />
+        <activity android:name=".FpsActivity" />
+        <activity android:name=".FpsStartActivity" />
+        <activity android:name=".MolegameStart" />
+        <activity android:name=".ShakeGamePlay" />
+        <activity android:name=".ShakeGame" />
+        <activity android:name=".MolegamePlay" />
+        <activity android:name=".MolegameRestart" />
+        <activity
+            android:name=".MolegameInfo"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+
+        <service
+            android:name=".RingtonePlayingService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".RulesActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog" />
+        <activity android:name=".GameEndActivity"></activity>
+    </application>
+
+</manifest>
