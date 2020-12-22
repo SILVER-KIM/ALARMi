@@ -12,7 +12,7 @@
 2. 메인화면
 <div>
 <img src = "./image/main.jpg" width="20%">
-<img src = "./image/alarm.jpg" width="19.9%">
+<img src = "./image/alarm.jpg" width="19.8%">
 </div>
 
 3. 알람 세팅 화면
