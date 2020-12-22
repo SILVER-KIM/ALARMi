@@ -4,3 +4,4 @@
 ---
 ### 어플 사진
 ![시작화면](./image/start.jpg)
+<img src = "./image/start.jpg" width="40%">
