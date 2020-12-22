@@ -20,3 +20,9 @@
 <img src = "./image/setting1.jpg" width="20%">
 <img src = "./image/setting2.jpg" width="20%">
 </div>
+
+4. 게임 화면
+<div>
+<img src = "./image/choice_game.jpg" width="20%">
+<img src = "./image/ex_game.jpg" width="20%">
+</div>
