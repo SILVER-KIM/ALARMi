@@ -7,6 +7,16 @@
 1. 시작화면
 <div>
 <img src = "./image/start.jpg" width="20%">
+</div>
+
+2. 메인화면
+<div>
 <img src = "./image/main.jpg" width="20%">
-<img src = "./image/main.jpg" width="20%">
+<img src = "./image/alarm.jpg" width="20%">
+</div>
+
+3. 알람 세팅 화면
+<div>
+<img src = "./image/setting1.jpg" width="20%">
+<img src = "./image/setting2.jpg" width="20%">
 </div>
