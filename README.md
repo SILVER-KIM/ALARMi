@@ -3,5 +3,10 @@
 
 ---
 ### 어플 사진
+
+1. 시작화면
+<div>
 <img src = "./image/start.jpg" width="20%">
 <img src = "./image/main.jpg" width="20%">
+<img src = "./image/main.jpg" width="20%">
+</div>
