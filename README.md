@@ -35,5 +35,5 @@
 <img src = "./image/choice_game.jpg" width="20%">
 <img src = "./image/ex_game.jpg" width="20%">
 </div>
-+ 게임 이름 옆에 느낌표를 클릭하면 설명 이미지 오픈
++ 게임 이름 옆에 느낌표를 클릭하면 설명 이미지 오픈  
 + 게임 목록의 오른쪽 끝부분의 버튼을 클릭하면 연습 게임 실행 가능
