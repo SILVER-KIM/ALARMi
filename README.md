@@ -3,4 +3,4 @@
 
 ---
 ### 어플 사진
-<img src = "./image/start.jpg" width="40%">
+<img src = "./image/start.jpg" width="20%">
