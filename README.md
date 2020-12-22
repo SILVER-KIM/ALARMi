@@ -3,4 +3,4 @@
 
 ---
 ### 어플 사진
-![시작화면](./image/start.png)
+![시작화면](./image/start.jpg)
