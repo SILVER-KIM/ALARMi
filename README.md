@@ -14,6 +14,8 @@
 <img src = "./image/start.jpg" width="20%">
 </div>
 
++ 시간 별로 오전은 해가 오후에는 달이 뜨도록 설정
+
 2. 메인화면
 <div>
 <img src = "./image/main.jpg" width="20%">
@@ -26,8 +28,12 @@
 <img src = "./image/setting2.jpg" width="20%">
 </div>
 
++ 게임을 설정하지 않고 소리와 진동만으로도 알람이 가능하도록 구현
+
 4. 게임 화면
 <div>
 <img src = "./image/choice_game.jpg" width="20%">
 <img src = "./image/ex_game.jpg" width="20%">
 </div>
++ 게임 이름 옆에 느낌표를 클릭하면 설명 이미지 오픈
++ 게임 목록의 오른쪽 끝부분의 버튼을 클릭하면 연습 게임 실행 가능
